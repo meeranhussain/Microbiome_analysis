@@ -1,8 +1,7 @@
 # Qiime2 Pipeline for 16s rRNA and ITS Sequence Analysis
+## This pipeline was used in the following research work: [Regenerative agriculture augments bacterial community structure for a healthier soil and agriculture](https://doi.org/10.3389/fagro.2023.1134514)
 
-This pipeline processes soil sample data using Qiime2, from initial sequence trimming to taxonomy classification and visualization. Below is a step-by-step guide on using QIIME2.
-# This pipeline was used in the following research work:
-# [https://doi.org/10.3389/fagro.2023.1134514]
+The below pipeline provides steps involved in processing 16s rRNA and ITS data using Qiime2, from initial sequence trimming to taxonomy classification and visualization. 
 
 ## 1. Load Sample List & Perform Quality Trimming
 First, we load the sample IDs from a text file.
