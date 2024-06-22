@@ -1,4 +1,4 @@
-# Qiime2 Pipeline for Soil Analysis
+# Qiime2 Pipeline for 16s rRNA and ITS Sequence Analysis
 
 This pipeline processes soil sample data using Qiime2, from initial sequence trimming to taxonomy classification and visualization. Below is a step-by-step guide on using QIIME2.
 # This pipeline was used in the following research work:
