@@ -1,7 +1,7 @@
 # Qiime2 Pipeline for 16s rRNA and ITS Sequence Analysis
-## This pipeline was used in the following research work: [Regenerative agriculture augments bacterial community structure for a healthier soil and agriculture](https://doi.org/10.3389/fagro.2023.1134514)
+**This pipeline was used in the following research work:** [Regenerative agriculture augments bacterial community structure for a healthier soil and agriculture](https://doi.org/10.3389/fagro.2023.1134514)
 
-The below pipeline provides steps involved in processing 16s rRNA and ITS data using Qiime2, from initial sequence trimming to taxonomy classification and visualization. 
+The below pipeline provides codes for processing 16s rRNA data using Qiime2, from initial sequence trimming to taxonomy classification and visualization. Same steps can also be followed for processing ITS data
 
 ## 1. Load Sample List & Perform Quality Trimming
 First, we load the sample IDs from a text file.
@@ -20,6 +20,7 @@ done < "$input"
 ```
 ## 2. Prepare Sample Metadata Sheet
 Prepare a metadata sheet based on the study design and save it as soil_analysis_metadata.tsv.
+
 `EXAMPLE SHEET`
 | sample_id | Farming_Method | Location   | Kind_of_Vegetation |
 |-----------|----------------|------------|--------------------|
@@ -42,6 +43,7 @@ qiime metadata tabulate \
 ```
 ## 3. Prepare Sample Load Sheet
 Create a load sheet for Qiime2 named soil_samples.tsv:
+
 `EXAMPLE SHEET`
 | SampleID | Forward_read_path                   | Reverse_read_path                   |
 |----------|-------------------------------------|-------------------------------------|
